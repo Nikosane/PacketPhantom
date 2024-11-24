@@ -1,4 +1,4 @@
-                                                                        # PacketPhantom
+## PacketPhantom
 
 ## Overview
 This project demonstrates ARP poisoning to facilitate a Man-in-the-Middle (MITM) attack. It redirects traffic between a victim and a gateway to the attacker's machine, allowing packet interception or modification.
@@ -17,3 +17,15 @@ This project demonstrates ARP poisoning to facilitate a Man-in-the-Middle (MITM)
 
 ## Setup
 1. Clone the repository:
+```
+git clone https://github.com/Nikosane/PacketPhantom.git
+```
+
+2. Navigate to the project directory:
+```
+cd PacketPhanton
+```
+3. Install dependencies:
+```
+pip install -r requirements.txt
+```
