@@ -1,4 +1,4 @@
-## PacketPhantom
+# PacketPhantom
 
 ## Overview
 This project demonstrates ARP poisoning to facilitate a Man-in-the-Middle (MITM) attack. It redirects traffic between a victim and a gateway to the attacker's machine, allowing packet interception or modification.
@@ -29,3 +29,14 @@ cd PacketPhanton
 ```
 pip install -r requirements.txt
 ```
+---
+## Usage
+1. Run the script as root:
+```
+sudo python3 arp_poisoning.py
+```
+2. Enter the target IP and gateway IP when prompted.
+3. Press `Ctrl+C` to stop the attack and restore the ARP tables.
+
+## Legal Disclaimer
+This tool is intended for authorized security assessments only. Unauthorized use of this tool is illegal and unethical. The author is not responsible for any misuse.
